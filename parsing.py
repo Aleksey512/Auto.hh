@@ -13,8 +13,8 @@ def get_html(url):
         'User-Agent': 'My User Agent 1.0',
     }
 	)
-	user = "yakunina1111@gmail.com"
-	password = "Aleksey512"
+	user = ""
+	password = ""
 
 	res = requests.post(url, auth=HTTPDigestAuth(user, password), headers=headers)
 
